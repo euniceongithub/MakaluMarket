@@ -1,0 +1,52 @@
+/* src/components/Header.css */
+
+.header {
+    background-color: #F5EFE6;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh; /* Header is 20% of the viewport height */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 15vh; /* For example, restrict the logo height to 15% of the viewport */
+    width: auto;
+  }
+  
+  
+  .logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #333;
+  }
+  
+  .sell-button {
+    background-color: #B4CDE6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .sell-button:hover {
+    background-color: #45a049;
+  }
+  
+  .hidden {
+    transform: translateY(-100%);
+  }
+  
